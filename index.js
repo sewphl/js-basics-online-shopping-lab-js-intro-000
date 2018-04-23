@@ -6,6 +6,7 @@ function getCart(itemName) {
       ["itemName"]:itemName[i];
       ["itemPrice"]: Math.random()* (100 - 1) + 1;
     }
+    cart.push(myobj);
   }
  return cart;
 }

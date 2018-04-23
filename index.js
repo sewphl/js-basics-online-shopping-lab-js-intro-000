@@ -5,9 +5,9 @@ function getCart(itemName) {
     var myobj = {
       "itemName":itemName,
       "itemPrice": Math.random()* (100 - 1) + 1
-    //}
+    }
     cart.push(myobj);
-  }
+  //}
  return cart;
 }
 

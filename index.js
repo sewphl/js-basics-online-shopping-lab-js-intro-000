@@ -1,11 +1,12 @@
 var cart = [];
 
 function getCart(itemName) {
-  var myobj = {
-    [itemPrice]: Math.random()* (100 - 1) + 1;
-  };
-
-  
+  for(i===0; i<itemName.length; i++;){
+    var myobj = {
+      ["itemName"]:itemName;
+      ["itemPrice"]: Math.random()* (100 - 1) + 1;
+    }
+  }
  return cart;
 }
 

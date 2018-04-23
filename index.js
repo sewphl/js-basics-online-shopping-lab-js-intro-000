@@ -1,6 +1,11 @@
 var cart = [];
 
-function getCart() {
+function getCart(itemName) {
+  var myobj = {
+    [itemPrice]: Math.random()* (100 - 1) + 1;
+  };
+
+  
  return cart;
 }
 

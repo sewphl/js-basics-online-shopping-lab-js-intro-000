@@ -1,7 +1,7 @@
 var cart = [];
 
 function getCart(itemName) {
-  for(i===0; i<itemName.length; i++;){
+  for(let i=0; i<itemName.length; i++;){
     var myobj = {
       ["itemName"]:itemName[i];
       ["itemPrice"]: Math.random()* (100 - 1) + 1;
